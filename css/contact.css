@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+}
+
+.header__nav__tree a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.contact__content h2{
+    font-weight:500;
+    font-size: 31px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.contact__info{
+    margin: 40px 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.contact__content p{
+    font-size: 16px;
+    line-height: 12px;
+    color: black;
+}
+
+p.subject{
+    font-size: 12px;
+    line-height: 12px;
+    color: #848484;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+
+
+.contact__form{
+    width: 500px;
+    padding: 40px 65px 50px;
+    background: rgb(246, 246, 246);
+}
+
+.contact__form h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #323232;
+    margin-bottom: 20px;
+}
+
+
+
+.form__input{
+    background: #FFFFFF;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    padding: 15px 0 15px 20px;
+    width: 100%;
+}
+
+.form__btn{   
+    background: #DD4053;
+    border-radius: 2px;
+    width: 370px;
+    height: 60px;
+    border: none;
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.wrapper__team{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D0D0D0;;
+}
+
+
+.wrapper__team h2{
+    text-transform: uppercase;
+}
+
+.wrapper__team ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+line-height: 100%;
+color: #000000;
+
+}
+
+.wrapper__team li{
+    opacity: 0.35;
+    margin-left: 50px;
+}
+
+.wrapper__team li:first-child{
+    opacity: 1;
+    margin-left: 0;
+}
+
+.team__card__zone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card__team{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 550px;
+    padding-bottom: 45px;
+    margin-top: 40px;
+}
+
+.card__text{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.card__text__header h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;                          
+    color: #323232;
+
+}
